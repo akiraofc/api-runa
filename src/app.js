@@ -85,6 +85,6 @@ app.delete('/delete_post/:post_id', async (req, res) => {
     }
 })
 
-app.listen(27018, () => {
-    console.log('servidor de api rodando na porta: ' + 27018)
+app.listen(PORT, () => {
+    console.log('servidor de api rodando na porta: ' + PORT)
 })
